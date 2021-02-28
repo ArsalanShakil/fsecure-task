@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>F Secure Task</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+<div class="card">
+<h1 class="header-first" tabindex="1">Subscribe to our newsletter</h1>
+  <p class="body-text" tabindex="2">You can keep yourself updated on our products, offers, and events by providing the requested information below</p>
+
+
+<form action="" class="form-style" name="newsletterForm" onfocus="replaceValidationUI()">
+
+  <div class="container" >
+    <div>
+      <input tabindex="3" id="firstname" type="text" name="name"  placeholder="First Name*" required>
+      <input tabindex="4" id="lastname" type="text" placeholder="Last Name*" name="name"  required>
+    </div>
+    <div><input tabindex="4" id="email" type="text" placeholder="Email address*" name="mail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required></div>
+    <div class="checkbox-style">
+      <div class="design-checkbox-1">
+    <label class="checkbox-label">
+      <input  type="checkbox" checked="checked" class="checkbox" name="subscribe">I agree to the <a
+            tabindex="6"href="" class="link">Terms of Use</a>
+      <span class="checkmark" tabindex="5"></span>
+    </label>
+      </div>
+      <div class="design-checkbox-2">
+        <label class="checkbox-label">
+          <input  id="checkbox-privacy" type="checkbox" checked="checked" class="checkbox" name="subscribe">I agree to the F-Secure <a
+                tabindex="8" href="" class="link">Privacy Policy</a>
+          <span class="checkmark" tabindex="7"></span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <input tabindex="9" type="submit" value="Subscribe" class="button" id="button">
+  </div>
+</form>
+</div>
+
+</body>
+<script src="./app.js"></script>
+</html>
