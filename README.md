@@ -5,6 +5,6 @@
 ![Responsive design](https://media.giphy.com/media/aGJB4sLhw4GFLGuh5e/giphy.gif)
 
 
-## Tabbing order
+## Tabbing order and accessibility practices
 ![Tabbing order](https://media.giphy.com/media/F8PKD0L4LgqMPIpEQw/giphy.gif)
 
